@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Configura a pasta correta (ajuste o caminho conforme sua estrutura)
+// Configura a pasta correta 
 app.use(express.static(path.join(__dirname, 'FullStack_2025.1_V', 'LAB_1')));
 
 // Rota para index_Aula_2.html
